@@ -1,1 +1,2 @@
-python3 update.py && python3 -m VideoEncoder
+python=venv/bin/python
+$python get_config.py && $python bot.py
